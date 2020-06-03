@@ -1,0 +1,111 @@
+{
+    "products":[
+        {
+            "id": 1,
+            "image": "../imgs/polish.jpg",
+            "name": "Amara Halal Cosmetics",
+            "price": "$9.00",
+            "description": "Cherry Red Nail Polish",
+            "available": "Out Of Stock"
+        },
+        {
+            "id": 2,
+            "image": "../imgs/highlighter.jpeg",
+            "name": "Cover FX",
+            "price": "$80.00",
+            "description": "Cover FX Highlighter",
+            "available": "Out Of Stock",
+            "cost": "medium",
+            "type": "Highlighter"
+            
+        },
+        {
+            "id": 3,
+            "image": "../imgs/lipgloss.jpg",
+            "name": "Lipgloss",
+            "price": "$42.00",
+            "description": "Fenty Beauty Lipgloss",
+            "available": "Out Of Stock",
+            "cost": "medium",            
+            "type": "Lipgloss"
+        },
+        {
+            "id": 4,
+            "image": "../imgs/mascara.jpeg",
+            "name": "Too Faced Mascara",
+            "price": "$33.00",
+            "description": "Too Faced Better Than Sex Mascara",
+            "available": "In Of Stock",
+            "cost": "medium",
+            "type": "Mascara"
+        },
+        {
+            "id": 5,
+            "image": "../imgs/lipstick.jpeg",
+            "name": "Yardley Lipstick",
+            "price": "$65.00",
+            "description": "Yardley Intense Matte Lipstick",
+            "available": "In Of Stock",
+            "cost": "medium",
+            "type": "Lipstick"
+        },
+        {
+            "id": 6,
+            "image": "../imgs/concealer.jpeg",
+            "name": "Too Faced Concealer",
+            "price": "$25.00",
+            "description": "Too Faced Born This Way Concealer",
+            "available": "In Stock",
+            "cost": "medium",
+            "type": "Concealer"
+        },
+        {
+            "id": 7,
+            "image": "../imgs/spray.jpeg",
+            "name": "Urban Decay",
+            "price": "$43.00",
+            "description": "Urban Decay All Nighter Setting Spray",
+            "available": "In Stock"
+        },
+        {
+            "id": 8,
+            "image": "../imgs/bronzer.png",
+            "name": "Makeup Factory",
+            "price": "$29.00",
+            "description": "Makeup Factory Bronzer",
+            "available": "In Stock"
+        },
+        {
+            "id": 9,
+            "image": "../imgs/eyeshadow.jpg",
+            "name": "BH Cosmetics Eyeshadow",
+            "price": "$50.00",
+            "description": "Bh Cosmetics Eyeshadow Palette perfect heavy pigmentation",
+            "available": "In Of Stock"
+        },
+        {
+            "id": 10,
+            "image": "../imgs/eyeliner.jpg",
+            "name": "Kat Von D Eyeliner",
+            "price": "$45.00",
+            "description": "Kat Von D Eyeliner is so sharp and smooth, it glides",
+            "available": "In Stock"
+        },
+        {
+            "id": 11,
+            "image": "../imgs/eyebrow.jpeg",
+            "name": "Eyebrow Pencil",
+            "price": "$50.00",
+            "description": ")",
+            "available": "In Of Stock"
+        },
+        {
+            "id": 12,
+            "image": "../imgs/primer.jpeg",
+            "name": "The Pore fessional",
+            "price": "Offer: $32.00",
+            "description": "the PORE fessional PORE PRIMER",
+            "available": "In Stock"
+        }
+    ]
+}

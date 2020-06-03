@@ -1,25 +1,24 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import './App.css'
+import Filters from './Components/Filters/filter'
+import Products from './Components/Products/products.js'
+import Form from './Components/Contact/contact.js'
+import SlideShow from './Home/Home.js'
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+function App () {
+   return (
+  //    if (window.location.pathname === '/products.html') {
+  //   return (<Products/>);
+  // } else if (window.location.pathname === '/contact.html'){
+  //   return(<Form/>);
+  // } else {
+  //   console.log("Home Page");
+  // }
+
+      <div className="App">
+        <SlideShow/>
+        <Filters/>
+      </div>
   );
 }
 

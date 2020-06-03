@@ -1,38 +1,285 @@
-.App {
+body{
+  background-color: pink;
+}
+.logo{
+  display: flex;
+  justify-self: start;
+  width: 70px;
+}
+a{
+  margin: 0 auto;
+  text-decoration: none;
+  color: black;
+}
+.nav {
+  display: flex;
+  margin-top: 10px;
+  list-style: none;
+}
+.nav a {
+  margin: 10px;
+  padding: 10px 15px;
+  text-transform: uppercase;
+  display: block;
+}
+.nav a {
+  color:black;
+  font-size: 1.2em;
+}
+.nav a:hover {
+  color: black;
+}
+
+.header {
+  display: flex;
+  width:100%;
+  border: 1px solid hotpink;
+  background-color: pink;
+  box-shadow: 0px 0px 14px 0px rgba(0,0,0,0.75);
+  border-radius: 5px;
+  position: relative;
+}
+
+.slider{
+  margin: 10px;
+  display: block;
+  border-radius: 10px;
+  width: 98.5%;
+}
+
+.slideshoww{
+  width: 100%;
+  border-radius: 10px;
+  margin: 5px;
+  display: none;
+}
+
+.feature{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.child{
+  border: solid black 1px;
+  width: 320px;
+  height: 420px;
+  margin: 10px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.essentials::after{
+  content: "";
+  display: block;
+  width: 100%;
+  height: 4px;
+  text-align: center;
+  background-color: red;
+  position: relative;
+  z-index: -2
+}
+
+
+
+.child--image{
+  width: 100%;
+  height: 215px;
+  border-radius: 10px;
+}
+
+footer h3{
+  font-size:15px;
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+footer ul {
+  width: 100%;
+  text-align: center;
+  margin: 0;
+  padding: 0px;
+}
+footer li {
+  display: inline-block;
+  margin: 4px;
+}
+footer li a {
+  display: block;
+  text-decoration: none;
+  border-bottom: medium none;
+  padding: 10px;
+  border-radius: 50px;
+  transition: all 1s ease 0s;
+}
+footer .SMIcons:hover {
+  background-color:hotpink;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.footer1{
+  width:100%;
+  border: 1px solid hotpink;
+  background-color: pink;
+  border-radius: 5px;
+  margin-top: 120px;
+  position: relative;
+}
+.ul-2{
+  list-style: none;
+  text-align: center;
+  font-size: 8px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+body{
+  background-color: rgb(212, 212, 212);
+}
+
+.parent{
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  height: 100%;
+  margin: 0 auto;
+}
+.child{
+  border: solid black 1px;
+  width: 320px;
+  height: 420px;
+  margin: 10px;
+  text-align: center;
+  border-radius: 10px;
+}
+.child img{
+  width: 100%;
+  height: 215px;
 }
 
-.App-link {
-  color: #61dafb;
+.child--image{
+  border-radius: 10px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+body{
+  background-color: pink;
+}
+
+.logo{
+  display: flex;
+  justify-content: start;
+  width: 70px;
+}
+
+.text-primary{
+  font-size: xx-large;
+  text-align: center;
+}
+.hidden{
+  display: none;
+  border-radius: 10px;
+  margin: 5px;
+}
+
+
+.text-primary::after{
+  content: "";
+  display: block;
+  width: 100%;
+  height: 4px;
+  background-color: red;
+  position: relative;
+  z-index: -2
+}
+
+a{
+  margin: 0 auto;
+  text-decoration: none;
+  color: black;
+}
+.container {
+  margin: auto;
+  max-width: 1100px;
+  overflow: auto;
+  padding: 0 20px;
+}
+
+.skyline{
+  margin: 10px;
+  border-radius: 10px;
+  width: 98.5%;
+  height: 420px;
+}
+
+.btn{
+  display: flex;
+  margin: auto;
+  font-size: 18px;
+  border-radius: 10px;
+  background-color: pink;
+  color: black;
+  padding: 10px 15px;
+  font-size: 14px;
+  transition: 1s;
+  border: solid black 2px;
+}
+.btn:hover{
+  background: hotpink;
+  color: #333;
+  border: solid black 2px;
+}
+
+.forminput{
+  display: block;
+  margin-bottom: 5px;
+  padding: 10px;
+  border: 1px pink solid;
+  height: 200px;
+  align-content: center;
+}
+
+@media (max-device-width : 759px){
+  .skyline{
+  display: none;
   }
-  to {
-    transform: rotate(360deg);
+  .logo{
+  text-align: center;
+  }
+  .header{
+  display: flex;
+  display:inline-block;
+  font-size: 12px;
+  }
+  .hidden{
+  display: block;
+  width: 99%;
+  }
+  .nav a {
+  font-size: 1.1em;
+  }
+  .slider{
+  display: block;
+  }
+  .slideshoww{
+  display: block;
+  }
+  .logo{
+  text-align: center;
+  }
+  .header{
+  display: flex;
+  display:inline-block;
+  font-size: 12px;
+  }
+  .nav a {
+  font-size: 1.1em;
+  }
+  .logo{
+  justify-self: center;
+  } 
+  .header{
+  display: flex;
+  display:inline-block;
+  font-size: 12px;
+  }
+  .nav a {
+  font-size: 1.1em;
   }
 }
